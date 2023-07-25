@@ -1,0 +1,151 @@
+[Yesterday 11:29] Ram Kumar
+
+git commands :
+
+--------------
+
+#1
+
+C:\my-git>git init
+
+Reinitialized existing Git repository in C:/my-git/.git/
+
+#2
+
+C:\my-git>git status
+
+On branch master
+
+ 
+
+No commits yet
+
+ 
+
+nothing to commit (create/copy files and use "git add" to track)
+
+ 
+
+---After copying 3 files now showing git status
+
+ 
+
+#3
+
+C:\my-git>git status
+
+On branch master
+
+ 
+
+No commits yet
+
+ 
+
+Untracked files:
+
+  (use "git add <file>..." to include in what will be committed)
+
+        Py1-Myname.py
+
+        Py2-Addition.py
+
+        myexample.txt.txt
+
+ 
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+ 
+
+#4. One file add into Staging
+
+ 
+
+C:\my-git>git add Py1-Myname.py
+
+ 
+
+#5. shoing remaing two files
+
+C:\my-git>git status
+
+On branch master
+
+ 
+
+No commits yet
+
+ 
+
+Changes to be committed:
+
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   Py1-Myname.py
+
+ 
+
+Untracked files:
+
+  (use "git add <file>..." to include in what will be committed)
+
+        Py2-Addition.py
+
+        myexample.txt.txt
+
+ 
+
+#6. Adding one more file to Staging 
+
+C:\my-git>git add Py2-Addition.py
+
+ 
+
+#7. showing two files two staging 
+
+C:\my-git>git status
+
+On branch master
+
+ 
+
+No commits yet
+
+ 
+
+Changes to be committed:
+
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   Py1-Myname.py
+
+        new file:   Py2-Addition.py
+
+ 
+
+Untracked files:
+
+  (use "git add <file>..." to include in what will be committed)
+
+        myexample.txt.txt
+
+[Yesterday 11:34] Ram Kumar
+
+git commit -m "Commit code python file :Ram"
+
+[Yesterday 11:38] Ram Kumar
+
+C:\my-git>git add Py2-Addition.py
+
+ 
+
+C:\my-git>git commit -m "Commiting code examples :RAM"
+
+[master (root-commit) e91197e] Commiting code examples :RAM
+
+2 files changed, 3 insertions(+)
+
+create mode 100644 Py1-Myname.py
+
+create mode 100644 Py2-Addition.py
